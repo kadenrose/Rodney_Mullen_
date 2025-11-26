@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIT FINAL PROJECT</title>
+    <meta name="author" content="Kaden Rose">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.1/spectrum.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/themes/base/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+    <header id="header" class="bg-dark text-dark text-center py-5"><h1 class="display-4 fw-bold">Rodney Mullen</h1><p class="lead fw-bold">The Godfather of Street Skating</p></header>
+    <nav class="hidden">
+        <ul>
+            <li><a href="#lifeStory">Life Story</a></li>
+            <li><a href="#carousel">Known For...</a></li>
+            <li id="backToTop"><a href="#header">Back to Top</a></li>
+        </ul>
+    </nav>
+    <main class="container my-5">
+        <section id="lifeStory" class="mb-5">
+            <h2 class="mb-3">His Life Story</h2>
+
+            <section id="life-story">
+                <img 
+                src="assets/vintage_trick_1/large_9187.jpg"
+                alt="Young Rodney Mullen skating in front of a crowd in a parking lot, wearing a white t-shirt, blue shorts, white socks and shoes. Skating on a blue 9.5in board with Bones and Independent stickers on it."
+                id="imgLife">
+
+                <section id="accordion"> 
+                    <h3 id="early-h3" class="fun funPadding">Early Life</h3>
+                    <div class="description1"><p>Rodney Mullen was born in Gainesville, Florida. His parents were both high achievers—his mother, a skilled pianist, and his father, a dentist [1]. Mullen inherited many of the traits that fueled their success. He began skateboarding at age 10 after convincing his strict father to let him try the sport; practicing alone on the family driveway, he quickly developed a unique technical style that would lay the foundation for modern street skateboarding.</p></div>
+                    <h3 id="flatground-h3" class="fun funPadding">Flatground Innovations</h3>
+                    <div class="hidden description1"><p>Rodney Mullen’s flatground innovations are the backbone of modern street skating. Throughout the 1980s, he transformed skateboarding by inventing an entirely new vocabulary of tricks done on flat ground rather than ramps. He created foundational moves such as the kickflip, heelflip, impossible, 360 flip (tre flip), casper slide, and countless variations that skaters still build on today [1].<br><br>What set him apart was not just the number of tricks he invented, but the way he approached skating: practicing obsessively in quiet parking lots, breaking tricks down into micro-movements, and rethinking what a board could do. His creativity turned flatground into a technical art form and reshaped the direction of skateboarding forever [2, 3].</p></div>
+                    <h3 id="pro-h3" class="fun funPadding">Pro Career</h3>
+                    <div class="hidden description1"><p>Rodney Mullen turned pro in the early 1980s under Powell-Peralta, joining the legendary Bones Brigade team—a group that included icons like <a href="https://www.tonyhawk.com/">Tony Hawk</a>, Steve Caballero, and Lance Mountain. Although Mullen wasn’t a ramp skater like most of the team, his technical flatground abilities made him stand out as the “quiet genius” of the Brigade. He won his first professional contest in 1980 and went on to dominate nearly every freestyle competition for over a decade [5].<br><br>As freestyle skateboarding declined in the early 1990s, Mullen adapted by transitioning into street skating. He partnered with World Industries and later helped launch Almost Skateboards, bringing his creativity and technical mastery into the new era. His video parts—especially in Questionable (1992) and Virtual Reality (1993)—showed the world that his once “freestyle” tricks were perfectly suited for street skating, reshaping the entire sport’s direction.</p></div>
+                    <h3 id="legacy-h3" class="fun funPadding">Legacy</h3>
+                    <div class="hidden description1"><p>Rodney Mullen’s influence on modern skateboarding is almost impossible to overstate—he’s the foundation that today’s street skating is built on. Nearly every technical trick used in modern skateboarding traces back to something he invented or inspired, from the kickflip to the 360 flip to countless variations that have become standard in videos, competitions, and everyday skating. His approach emphasized creativity, self-expression, and perseverance over competition, shaping skateboarding into the individualistic culture it is today [4].<br><br>Beyond tricks, his legacy extends into how skaters think. Mullen’s analytical, almost philosophical way of describing skateboarding helped elevate it from a pastime to an art form. His TED Talk—“How to Get Up Again”—is a powerful reflection on failure, resilience, and the creative process, and it resonates far beyond the skate community. In it, he explains how falling, adapting, and rebuilding are essential not only in skating but in life [6].<br><br>Today, he’s regarded not just as the “Godfather of Street Skating,” but as one of the most influential innovators in the history of the sport—someone whose ideas, inventions, and mindset continue to shape skateboarding’s culture and progression.</p></div>
+                </section>
+            </section>
+        </section>
+        <section id="carousel" class="mb-5">
+            <h2 class="mb-3">Photos</h2>
+            <section>
+                <img src="https://d2f2qdtdia4gfq.cloudfront.net/media/wysiwyg/bbaa/bbaa-cast-mullen.jpg" alt="carousel images" id="carouselImgContainer">
+            </section>
+            <section id="buttons-img">
+                <button class="fun funPadding" id="picture-button-back">←</button>
+                <button class="fun funPadding" id="picture-button-forward">→</button>
+            </section>
+        </section>
+        <section id="rodneysTricks" class="mb-5">
+            <h2 class="mb-3">Rodney's Trick Innovations</h2>
+            <section id="tricksContainer" class="row g-3">
+            <!-- this will be for the ajax/json section --><!--use api https://skatesense.com/content/posts/getting-started-with-the-skatesense-api/ -->
+            </section>
+        </section>
+        <section id="yourFavTricks" class="hidden mb-5">
+            <h2 class="mb-3">Your Favorite Tricks</h2>
+            <p id="savedTrick" class="fw-bold text-primary"></p>
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <small>Project Created by Kaden Rose | GIT 418 | 2025 &copy; | <a class="fun" href="sources.html">Sources</a></small>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.1/spectrum.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

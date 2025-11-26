@@ -1,0 +1,145 @@
+/* CSS BY KADEN ROSE */
+
+/* styles */
+
+.hidden {
+    display: none;
+}
+
+#header {
+    background: url(assets/hero_01/large_003.jpg) center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    color: #000 !important;
+}
+
+.fun {
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.funPadding {
+    padding: 2px 9px;
+}
+
+.fun:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+body {
+    background: linear-gradient(to bottom, #2f2f2f, #5e5e5e);
+}
+
+#life-story {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 1rem;
+}
+
+#imgLife {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer a {
+    padding: 2px;
+}
+
+footer a:hover {
+    border: 1px solid #ffffff !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+main {
+    color: #fff;
+}
+
+.description1 {
+    padding: 2px 13px;
+}
+
+/* carousel stylingz */
+
+#carousel {
+    display: flex;
+    padding-top: 18rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#carouselImgContainer {
+    max-width: 80%;
+}
+
+@media (max-width: 600px) {
+    #imgLife {
+        display: none;
+    }
+
+    #life-story {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #carouselImgContainer {
+    max-width: 100%;
+    }
+}
+
+/* button left/right styles */
+
+#buttons-img button {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #ffffff !important;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+#buttons-img button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#buttons-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+#carousel{
+    max-width: fit-content;
+}
+
+/* jQuery UI styles */
+
+#accordion .ui-accordion-header {
+    background: transparent !important;
+    padding: 0 !important;
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 1rem 0 !important;
+    border: 1px solid #ffffff !important;
+}
+
+#accordion .ui-accordion-header.ui-state-active {
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+#accordion .ui-accordion-content {
+    background: transparent !important;
+    border: none !important;
+    color: #fff;
+    padding: 0.50rem 1rem;
+}
+
+#accordion .ui-icon {
+    filter: brightness(1000%);
+}
