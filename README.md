@@ -2,6 +2,6 @@
 This will include the JavaScript files that are obfuscated
 
 
-####Disclaimer: All images used under Educational Licenses.
+#### Disclaimer: All images used under Educational Licenses.
 
 
