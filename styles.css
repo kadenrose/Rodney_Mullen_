@@ -13,6 +13,7 @@
     justify-content: center;
     width: 100%;
     color: #000 !important;
+    z-index: 9999;
 }
 
 .fun {
@@ -143,3 +144,91 @@ main {
 #accordion .ui-icon {
     filter: brightness(1000%);
 }
+
+/* api thingy styling  */
+
+/* API trick cards */
+
+#tricksContainer {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+    width: 95%;
+}
+
+.trick-card {
+    flex: 1 1 200px;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+    color: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.trick-card:hover {
+    transform: translateY(-5px);
+}
+
+.trick-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.trick-card caption {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.trick-card button {
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:  0.2s ease, color 0.2s ease;
+}
+
+.trick-card button:hover {
+    color: #fff;
+}
+
+.fav-item{
+    display: flex;
+    padding: 16px;
+}
+
+.fav-item img{
+    width: 95%;
+    border-radius: 5px;
+}
+
+#rodneysTricks{
+    padding-top: 18rem;
+}
+
+#yourFavTricks{
+    background-color: #fff;
+    color: #000 !important;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 900px) {
+    .trick-card {
+        flex: 1 1 180px;
+        max-width: 220px;
+    }
+}
+
+@media (max-width: 600px) {
+    .trick-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
