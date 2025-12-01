@@ -1,55 +1,58 @@
-Final Project — Single-Page Website (HTML, CSS, JS)
-Overview
+# Final Project — Single-Page Website (HTML, CSS, JS)
+### Overview
 
 This project is a fully custom single-page website built using semantic HTML, organized CSS, and JavaScript written entirely from scratch. It showcases interactive front-end development skills through the use of jQuery UI, AJAX/API integration, Web Storage, and a custom image carousel. The site is designed to function as a portfolio-ready example for job applications and future professional work.
 
-01 — Project Requirements
-Core Technical Requirements
+## 1 — Project Requirements
+### Core Technical Requirements
+<ul>
+<li>Single-page site displayed at 1280px width</li>
 
-Single-page site displayed at 1280px width
+<li>Must visually resemble a real, professional website</li>
 
-Must visually resemble a real, professional website
+<li>No placeholder text or low-quality assets</li>
 
-No placeholder text or low-quality assets
+<li>Semantic, well-structured HTML</li>
 
-Semantic, well-structured HTML
+<li>Clean, valid CSS</li>
 
-Clean, valid CSS
+<li>No console errors</li>
 
-No console errors
+<li>async or defer applied to script tags</li>
 
-async or defer applied to script tags
+<li>"use strict" applied globally</li>
 
-"use strict" applied globally
+<li>All files organized, indented, and commented</li>
 
-All files organized, indented, and commented
+<li>All code written entirely by me</li>
 
-All code written entirely by me
+<li>Any JavaScript in production must be obfuscated before hosting</li>
+</ul>
 
-Any JavaScript in production must be obfuscated before hosting
-
-Required Interactive Features
-jQuery Plugin/Widget
+### Required Interactive Features
+#### jQuery Plugin/Widget
 
 At least one jQuery UI widget (tabs, accordion, etc.).
 
-AJAX / API
+#### AJAX / API
 
 A section that loads content dynamically from:
+<ul>
+<li>A third-party API or</li>
 
-A third-party API or
+<li>A JSON file created manually</li>
+</ul>
 
-A JSON file created manually
+Minimum of <strong>three</strong> pieces of content displayed.
 
-Minimum of three pieces of content displayed.
-
-Web Storage
+#### Web Storage
 
 Use sessionStorage or localStorage to:
+<ul>
+<li>Save user data</li>
 
-Save user data
-
-Retrieve and display saved data on page load
+<li>Retrieve and display saved data on page load</li>
+</ul>
 
 Slideshow / Carousel
 
