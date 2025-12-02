@@ -1,7 +1,7 @@
 # Final Project — Single-Page Website (HTML, CSS, JS)
 ### Overview
 
-This project is a fully custom single-page website built using semantic HTML, organized CSS, and JavaScript written entirely from scratch. It showcases interactive front-end development skills through the use of jQuery UI, AJAX/API integration, Web Storage, and a custom image carousel. The site is designed to function as a portfolio-ready example for job applications and future professional work.
+This project is a fully custom website built using semantic HTML, organized CSS, and JavaScript written entirely from scratch. It showcases interactive front-end development skills through the use of jQuery UI, AJAX/API integration, Web Storage, and a custom image carousel.
 
 ## 1 — Project Requirements
 ### Core Technical Requirements
@@ -61,7 +61,7 @@ A JavaScript or jQuery-based image carousel featuring at least three images.
 ## 2 — Project Direction & Inspiration
 ### Concept
 
-I built a fictional skateboarding trick showcase site that demonstrates:
+I built a fictional skateboarding trick showcase site highlighting Rodney Mullen's impact that demonstrates:
 <ul>
 <li>API-driven content</li>
 
@@ -71,7 +71,6 @@ I built a fictional skateboarding trick showcase site that demonstrates:
 
 <li>A custom, minimalistic image carousel</li>
 </ul>
-The topic supports rich visuals and interactivity while aligning with front-end development work that I may present to employers.
 
 ## 3 — Project Goals
 ### Purpose of the Site
@@ -80,17 +79,11 @@ The topic supports rich visuals and interactivity while aligning with front-end 
 
 <li>Showcase interaction design and JavaScript functionality</li>
 
-<li>Present a polished, modern layout</li>
-
 <li>Provide an engaging user experience with real-world UI features</li></ul>
 
 ### Intended Users
 
-<ul>
-
-<li>Recruiters evaluating code quality</li>
-
-<li>General viewers exploring the project</li></ul>
+<ul><li>General viewers exploring the project</li></ul>
 
 ## 4 — Process & Development
 ### Discovery & Content Planning
@@ -99,9 +92,7 @@ The topic supports rich visuals and interactivity while aligning with front-end 
 
 <li>Selected a topic suited to API content and interactivity</li>
 
-<li>Gathered all required copy, assets, and visual materials</li>
-
-<li>Created a content map to define page structure</li></ul>
+<li>Gathered all required copy, assets, and visual materials</li></ul>
 
 ### Design Phase
 
@@ -111,14 +102,12 @@ Design priorities:
 
 <li>Simplified layouts</li>
 
-<li>Scalable Flexbox/Grid sectioning</li>
-
 <li>Dark, cinematic background with bright photo assets</li></ul>
 
 ## Coding the Site
 ### HTML
 
-<ul><li>Semantic structure: header, nav, main, section, article, footer</li>
+<ul><li>Semantic structure: header, main, footer</li>
 
 <li>Clean indentation and meaningful classes</li></ul>
 
@@ -169,17 +158,19 @@ Design priorities:
 
 <li>Chrome DevTools</li>
 
-<li>VS Code</li></ul>
+<li>VS Code</li><li>Bootstrap</li></ul>
 
 ### Assets & Media
 
-<ul><li>Photography</li>
+<ul><li>Photographs</li>
 
 <li>Icons</li>
 
 <li>API endpoint used</li>
 
-<li>Libraries included via CDN</li></ul>
+<li>Libraries included via CDN</li>
+
+</ul>
 
 ## 6 — Reflection & Next Steps
 ### What I Learned
@@ -210,7 +201,7 @@ Design priorities:
 
 ## 7 — Conclusion
 
-This project demonstrates complete front-end development skills, including planning, design, JavaScript interactivity, UI integration, and documentation. It now serves as a strong portfolio piece and an example of my ability to build polished, functional web experiences from scratch.
+This project demonstrates complete front-end development skills, including planning, design, JavaScript interactivity, UI integration, and documentation. 
 
 
 #### Disclaimer: All images used under Educational Licenses.
