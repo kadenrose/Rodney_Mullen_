@@ -54,217 +54,163 @@ Use sessionStorage or localStorage to:
 <li>Retrieve and display saved data on page load</li>
 </ul>
 
-Slideshow / Carousel
+#### Slideshow / Carousel
 
 A JavaScript or jQuery-based image carousel featuring at least three images.
 
-02 — Project Direction & Inspiration
-Concept
+## 2 — Project Direction & Inspiration
+### Concept
 
 I built a fictional skateboarding trick showcase site that demonstrates:
+<ul>
+<li>API-driven content</li>
 
-API-driven content
+<li>User customization via Web Storage</li>
 
-User customization via Web Storage
+<li>jQuery UI for structured information</li>
 
-jQuery UI for structured information
-
-A custom, minimalistic image carousel
-
+<li>A custom, minimalistic image carousel</li>
+</ul>
 The topic supports rich visuals and interactivity while aligning with front-end development work that I may present to employers.
 
-03 — Project Goals
-Purpose of the Site
+## 3 — Project Goals
+### Purpose of the Site
 
-Demonstrate full front-end development competency
+<ul><li>Demonstrate full front-end development competency</li>
 
-Showcase interaction design and JavaScript functionality
+<li>Showcase interaction design and JavaScript functionality</li>
 
-Present a polished, modern layout
+<li>Present a polished, modern layout</li>
 
-Provide an engaging user experience with real-world UI features
+<li>Provide an engaging user experience with real-world UI features</li></ul>
 
-Intended Users
+### Intended Users
 
-Employers reviewing examples of my work
+<ul>
 
-Recruiters evaluating code quality
+<li>Recruiters evaluating code quality</li>
 
-General viewers exploring the project
+<li>General viewers exploring the project</li></ul>
 
-What the Site Communicates
+## 4 — Process & Development
+### Discovery & Content Planning
 
-Clean code organization
+<ul><li>Interpreted assignment requirements</li>
 
-Ability to build dynamic, interactive UI
+<li>Selected a topic suited to API content and interactivity</li>
 
-Knowledge of third-party APIs
+<li>Gathered all required copy, assets, and visual materials</li>
 
-Competent visual layout and component design
+<li>Created a content map to define page structure</li></ul>
 
-04 — Process & Development
-Discovery & Content Planning
-
-Interpreted assignment requirements
-
-Selected a topic suited to API content and interactivity
-
-Gathered all required copy, assets, and visual materials
-
-Created a content map to define page structure
-
-Wireframes / Mockups
-
-(Add your images to the repository if needed)
-Created wireframes defining:
-
-Header, hero, and navigation flow
-
-Carousel placement
-
-Accordion content structure
-
-API-driven gallery
-
-Footer section
-
-Design Phase
+### Design Phase
 
 Design priorities:
 
-Readability and contrast
+<ul><li>Readability and contrast</li>
 
-Simplified layouts
+<li>Simplified layouts</li>
 
-Scalable Flexbox/Grid sectioning
+<li>Scalable Flexbox/Grid sectioning</li>
 
-Dark, cinematic background with bright photo assets
+<li>Dark, cinematic background with bright photo assets</li></ul>
 
-Minimal UI chrome
+## Coding the Site
+### HTML
 
-Coding the Site
-HTML
+<ul><li>Semantic structure: header, nav, main, section, article, footer</li>
 
-Semantic structure: header, nav, main, section, article, footer
+<li>Clean indentation and meaningful classes</li></ul>
 
-Clean indentation and meaningful classes
+### CSS
 
-CSS
+<ul><li>Structured by page sections</li>
 
-Structured by page sections
+<li>Included styles for:</li><ul>
 
-Included styles for:
+<li>Accordion</li>
 
-Accordion
+<li>Carousel</li>
 
-Carousel
+<li>Layout spacing / utility classes</li></ul>
 
-Trick cards
+<li>Considered small-screen behavior where needed</li></ul>
 
-Layout spacing / utility classes
+### JavaScript
 
-Considered small-screen behavior where needed
+<ul><li>"use strict"; globally</li>
 
-JavaScript
+<li>AJAX API retrieval + DOM injection</li>
 
-"use strict"; globally
+<li>jQuery UI accordion</li>
 
-AJAX API retrieval + DOM injection
+<li>Session Storage for “favorite tricks”</li>
 
-jQuery UI accordion
+<li>Custom slideshow with prev/next controls</li></ul>
 
-Session Storage for “favorite tricks”
+## 5 — Tools & Resources
+### Tools Used
+<ul>
+<li>HTML5</li>
 
-Custom slideshow with prev/next controls
+<li>CSS3</li>
 
-Testing
+<li>JavaScript (ES6+)</li>
 
-Validated HTML and CSS
+<li>jQuery</li>
 
-Zero console errors
+<li>jQuery UI</li>
 
-Verified Web Storage persistence
+<li>AJAX/JSON</li>
 
-Verified accordion behavior
+<li>Web Storage API</li>
 
-Ensured API content loaded correctly
+<li>GitHub</li>
 
-Tested carousel navigation reliability
+<li>Chrome DevTools</li>
 
-05 — Tools & Resources
-Tools Used
+<li>VS Code</li></ul>
 
-HTML5
+### Assets & Media
 
-CSS3
+<ul><li>Photography</li>
 
-JavaScript (ES6+)
+<li>Icons</li>
 
-jQuery
+<li>API endpoint used</li>
 
-jQuery UI
+<li>Libraries included via CDN</li></ul>
 
-AJAX/JSON
+## 6 — Reflection & Next Steps
+### What I Learned
 
-Web Storage API
+<ul><li>Integrating external APIs into UI layouts</li>
 
-Git & GitHub
+<li>Better DOM manipulation and event-driven coding</li>
 
-Chrome DevTools
+<li>Organizing larger JS files</li>
 
-VS Code
+<li>Structuring a page like a real production website</li>
 
-Assets & Media
+<li>Using jQuery UI and Web Storage effectively</li></ul>
 
-(Add links/sources in your repo as needed)
+### Challenges
 
-Photography
+<ul><li>Finding a stable free API</li>
 
-Icons
+<li>Solving z-index issues with jQuery UI</li></ul>
 
-API endpoint used
+### Future Improvements
 
-Libraries included via CDN
+<ul><li>More advanced carousel transitions</li>
 
-06 — Reflection & Next Steps
-What I Learned
+<li>Content filters driven by API data</li>
 
-Integrating external APIs into UI layouts
+<li>Additional animations and micro-interactions</li></ul>
 
-Better DOM manipulation and event-driven coding
-
-Organizing larger JS files
-
-Structuring a page like a real production website
-
-Using jQuery UI and Web Storage effectively
-
-Challenges
-
-Finding a stable free API
-
-Solving z-index issues with jQuery UI
-
-Matching CSS spacing to wireframes precisely
-
-Future Improvements
-
-Full mobile responsiveness
-
-A modal detail view for each trick
-
-More advanced carousel transitions
-
-Content filters driven by API data
-
-Additional animations and micro-interactions
-
-07 — Conclusion
+## 7 — Conclusion
 
 This project demonstrates complete front-end development skills, including planning, design, JavaScript interactivity, UI integration, and documentation. It now serves as a strong portfolio piece and an example of my ability to build polished, functional web experiences from scratch.
-
-
-This will include the JavaScript files that are obfuscated
 
 
 #### Disclaimer: All images used under Educational Licenses.
